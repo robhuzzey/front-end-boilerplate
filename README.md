@@ -30,6 +30,7 @@ The easiest way to get started is to clone the repository:
 ```bash
 # Get the latest snapshot
 git clone --depth=1 https://github.com/robhuzzey/front-end-boilerplate.git myproject
+rm -rf .git # Prevents trying to push changes to this repo
 
 # Change directory
 cd myproject
