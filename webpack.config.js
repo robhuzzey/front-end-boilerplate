@@ -65,7 +65,7 @@ module.exports = {
         enforce: 'pre',
         use: [
           {
-            loader: 'json'
+            loader: 'json-loader'
           }
         ]
 
